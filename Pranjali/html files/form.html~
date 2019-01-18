@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/home/student/Desktop/Pranjali/css files/stylesheet.css">	
+</head>
+<body>
+	<h2>Fill the Details</h2>
+
+	<form>
+  		First name:<br>
+  		<input type="text" name="firstname">
+  		<br>
+  		Last name:<br>
+  		<input type="text" name="lastname">
+		<br>
+		Middle name:<br>
+		<input type="text" name="middlename">
+		<br>
+		Email id:<br>
+		<input type="email" name="emailid">
+		<br>
+		Gender:<br>
+		<input type="radio" name="gender" value="female">Female<br>
+		<input type="radio" name="gender" value="male">Male<br>
+		Age:<br>
+		<input type="text" name="age">
+		<br>
+		Address:<br>
+		<input type="text" name="address" width=600px>
+		<br>
+		City:<br>
+		<select>
+			<option value="city">--select--</option>
+			<option value="pune">Pune</option>
+			<option value="mumbai">Mumbai</option>
+			<option value="chennai">Chennai</option>
+			<option value="delhi">Delhi</option>
+		</select>
+		<br>
+		Pincode:<br>
+		<input type="text" name="pin">
+		<br>
+		Contact No:<br>
+		<input type="text" name="contact">
+	</form>	
+	<br>
+	<br>
+	<button1 class="button1" onclick = "alert('Registered Successfully!')"> Submit </button1>
+	
+</body>
+</html>
